@@ -1,0 +1,22 @@
+/* Carrossel */
+
+.carousel {
+	margin-top: 10px;
+}
+
+.carousel__img__container {
+	height: 400px;
+	width: 460px;
+	text-decoration: none;
+	color: var(--branco);
+}
+
+.carousel__img__container:hover {
+	cursor: pointer;
+}
+
+.carousel__img{
+	height: 400px;
+	width: 460px;
+	cursor: pointer;
+}

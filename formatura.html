@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Memories</title>
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
+		<link rel="stylesheet" type="text/css" href="./css/galeria.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@500&display=swap" 
+		rel="stylesheet">
+	</head>
+	<body>
+		<header class="navegacao">
+			<div class="navegacao__container container">
+				<a class="titulo__ancora" href="index.html"><h2 class="navegacao__titulo">MEMORIES</h2></a>
+			</div>
+		</header>
+		<main class="conteudo__ana">
+			<div id="conteudo__template" class="conteudo__album"></div>
+		</main>
+		<div class="carousel">
+			<div id="carousel_node" class="owl-carousel owl-theme carousel__container">
+				<img id="img" onclick="formaturaController.importaFotosUm()" class="content carousel__img" src="assets/formatura/img_01.jpg" alt="">
+				<img id="img" onclick="formaturaController.importaFotosDois()" class="content carousel__img" src="assets/formatura/img_02.jpg" alt="">
+				<img id="img" onclick="formaturaController.importaFotosTres()" class="content carousel__img" src="assets/formatura/img_03.jpg" alt="">
+				<img id="img" onclick="formaturaController.importaFotosQuatro()" class="content carousel__img" src="assets/formatura/img_04.jpg" alt="">
+				<img id="img" onclick="formaturaController.importaFotosCinco()" class="content carousel__img" src="assets/formatura/img_05.jpg" alt="">
+				
+			</div>
+		</div>
+
+		<!-- Libraries -->
+		<script src="js/libraries/fontawesome-all.js"></script>
+		<script src="js/libraries/Jquery3.4.1.min.js"></script>
+		<script src="js/libraries/owl.carousel.min.js"></script>
+		<script src="js/libraries/setup.js"></script>
+
+		<!-- Classes -->
+		<script src="js/controllers/FormaturaController.js"></script>
+		<script src="js/views/FormaturaView.js"></script>
+		 <script>
+			 let formaturaController = new FormaturaController();
+		 </script>
+	</body>
+</html>

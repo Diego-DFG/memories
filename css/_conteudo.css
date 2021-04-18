@@ -1,0 +1,32 @@
+@import url('./_botao.css');
+
+/* Conteúdo */
+
+.conteudo {
+	background: var(--backgroundConteudo);
+	background-size: cover;
+}
+
+.conteudo__album {
+	height: 400px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.conteudo__container {
+	color: var(--branco);
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.conteudo__titulo {
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.conteudo__descricao {
+	margin-bottom: 10px;
+}

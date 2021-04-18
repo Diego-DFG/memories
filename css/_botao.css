@@ -1,0 +1,13 @@
+.btn-conteudo {
+	padding: 15px 30px;
+	border: none;
+	background-color: var(--fundoBotao);
+	color: var(--branco);
+	text-decoration: none;
+}
+
+.btn-conteudo:hover {
+	background: var(--branco);
+	color: var(--preto);
+	cursor: pointer;
+}

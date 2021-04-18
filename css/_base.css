@@ -1,0 +1,32 @@
+/* Estilos gerais */
+:root {
+	/* Cores */
+	--preto: #222222;
+	--verde: green;
+	--cinza: #888888;
+	--branco: #ffffff;
+    --fundoBotao: rgba(0,0,0,0.5);
+
+	/* Família */
+	--fonteNavegacao: Arial, Helvetica, sans-serif;
+    --fonteNavegacaoTitulo: 'Montserrat', sans-serif;
+
+    /* Background */
+    --backgroundConteudo: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)100%), url('../assets/main/fundo_01.jpg');
+}
+
+* {
+	padding: 0%;
+	margin: 0%;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--preto);
+	font-family: var(--fonteNavegacao);
+	color: var(--branco);
+}
+
+.container {
+	margin-left: 10px;
+}

@@ -1,0 +1,20 @@
+/* Navegação */
+
+.navegacao__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navegacao__container .titulo__ancora {
+	text-decoration: none;
+}
+
+.navegacao__titulo {
+	color: var(--verde);
+	margin-left: 10px;
+	font-family: var(--fonteNavegacaoTitulo);
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
